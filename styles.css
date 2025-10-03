@@ -1,3 +1,37 @@
+/* Variables CSS pour la palette */
+:root {
+    --dark-blue: #0A0F2A; /* Bleu-noir profond pour le fond */
+    --dark-gray: #1C2526; /* Gris anthracite pour les sections */
+    --neon-blue: #00D4FF; /* Bleu néon pour les accents IA */
+    --neon-purple: #7B2CBF; /* Violet numérique pour le backend */
+    --neon-green: #00FFAA; /* Vert phosphorescent pour l'innovation */
+    --neon-pink: #FF00AA; /* Rose néon pour Sweet Home */
+    --text-gray: #E5E7EB; /* Blanc cassé pour le texte */
+}
+
+/* Appliquer les polices */
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-gray);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-fira {
+    font-family: 'Fira Code', monospace;
+}
+
+/* Animation fadeInUp */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -13,15 +47,26 @@
     animation: fadeInUp 0.6s ease-out;
 }
 
+/* Effet de glow au hover */
 .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 212, 255, 0.3); /* Glow néon bleu */
+}
+
+.shadow-neon {
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.5); /* Effet néon au hover */
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+/* Corriger le débordement en mobile */
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
