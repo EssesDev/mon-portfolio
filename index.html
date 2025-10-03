@@ -3,44 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Développeur Python</title>
+    <meta name="description" content="Portfolio de Brice Essomba, développeur Python et aspirant développeur IA basé à Douala, Cameroun. Spécialisé en applications desktop, backend, et modélisation IA.">
+    <meta name="keywords" content="développeur Python, IA, applications desktop, backend, Django, Douala, Cameroun">
+    <meta name="author" content="Brice Essomba">
+    <title>Portfolio - Brice Essomba, Développeur Python & IA</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .fade-in-up {
-            animation: fadeInUp 0.6s ease-out;
-        }
-        
-        .project-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .project-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-        
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
     
     <nav class="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-700">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                Brice ESSOMBA
+                Brice Essomba
             </h1>
             <div class="flex gap-6">
                 <a href="#projets" class="hover:text-cyan-400 transition">Projets</a>
@@ -54,20 +29,20 @@
         <div class="max-w-6xl mx-auto">
             <div class="text-center space-y-6 fade-in-up">
                 <h2 class="text-5xl md:text-6xl font-bold">
-                    Développeur <span class="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Python</span>
+                    Développeur <span class="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Python & IA</span>
                 </h2>
                 <p class="text-xl text-slate-300 max-w-2xl mx-auto">
-                    Passionné par le développement backend. Basé à Douala, Cameroun.
+                    Développeur passionné basé à Douala, Cameroun. Je crée des applications desktop et backend robustes, avec un intérêt croissant pour l'intelligence artificielle et la modélisation.
                 </p>
                 <div class="flex gap-4 justify-center pt-4">
                     <a href="https://github.com/EssesDev" target="_blank" rel="noopener noreferrer" 
-                       class="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
+                       class="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition" aria-label="GitHub de Brice Essomba">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                         </svg>
                     </a>
                     <a href="https://linkedin.com/in/jean-brice-essomba-06a52b1a8" target="_blank" rel="noopener noreferrer"
-                       class="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
+                       class="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition" aria-label="LinkedIn de Brice Essomba">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                             <rect x="2" y="9" width="4" height="12"></rect>
@@ -75,7 +50,7 @@
                         </svg>
                     </a>
                     <a href="mailto:briceessomba12@gmail.com"
-                       class="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
+                       class="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition" aria-label="Contacter Brice Essomba par email">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                             <polyline points="22,6 12,13 2,6"></polyline>
@@ -90,9 +65,7 @@
         <div class="max-w-4xl mx-auto">
             <h3 class="text-3xl font-bold mb-8 text-center">À propos</h3>
             <p class="text-lg text-slate-300 leading-relaxed">
-                Développeur Python en apprentissage continu, je me spécialise dans la création d'applications. Après avoir déployé ma première application en production, je cherche 
-                à élargir mes compétences et à contribuer à des projets innovants. Disponible pour des missions 
-                freelance et des opportunités d'emploi.
+                Je suis un développeur Python basé à Douala, Cameroun, spécialisé dans les applications desktop et backend. J'ai développé et vendu <strong>PSG Video Navigator</strong>, une application pour l'analyse de vidéos polysomnographiques, à un client local, démontrant des compétences en architecture MVC et tests unitaires. En collaboration avec un collègue, je travaille sur <strong>Sweet Home</strong>, une plateforme de gestion hôtelière avec une API REST. Passionné par l'intelligence artificielle, je me forme activement en modélisation (TensorFlow, Scikit-learn) pour devenir développeur IA. Disponible pour des projets freelance et des opportunités d'emploi.
             </p>
         </div>
     </section>
@@ -104,24 +77,65 @@
                 
                 <div class="project-card bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
                     <div class="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-30">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-30" aria-label="Icône de vidéo">
+                            <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
                         </svg>
                     </div>
                     <div class="p-6">
                         <h4 class="text-xl font-bold mb-3">PSG Video Navigator</h4>
                         <p class="text-slate-400 mb-4 text-sm leading-relaxed">
-                            Application conçus pour naviguer frame par frame dans les une vidéo d'un examen de Vidéo-Polysomnographie. Permet de pallier au problème des applications de PSG qui n'intègre pas la vidéo.
+                            Application desktop cross-platform pour naviguer frame par frame dans des vidéos de polysomnographie (PSG). Permet de simuler des clics à des coordonnées configurables pour marquer les stades de sommeil. Utilise une architecture MVC, des tests unitaires (PyTest), et une interface Tkinter. Vendue avec succès à un client à Douala.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">Python</span>
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">...</span>
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">...</span>
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">...</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">Tkinter</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">OpenCV</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">PyAutoGUI</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">PyTest</span>
                         </div>
                         <div class="flex gap-3">
                             <a href="https://github.com/EssesDev/psg_video_navigator" target="_blank" rel="noopener noreferrer"
+                               class="flex items-center gap-2 text-sm bg-slate-700 px-4 py-2 rounded-lg hover:bg-slate-600 transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                Code
+                            </a>
+                            <a href="https://github.com/EssesDev/psg_video_navigator/raw/main/screenshot.png" target="_blank" rel="noopener noreferrer"
+                               class="flex items-center gap-2 text-sm bg-slate-700 px-4 py-2 rounded-lg hover:bg-slate-600 transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                                Capture
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+                    <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-30" aria-label="Icône d'hôtel">
+                            <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                            <path d="M12 18a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                            <path d="M6 6h12"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-3">Sweet Home</h4>
+                        <p class="text-slate-400 mb-4 text-sm leading-relaxed">
+                            Plateforme de gestion hôtelière en développement avec une API REST (Django Rest Framework) pour la gestion des utilisateurs et des réservations. Interface frontend moderne avec glassmorphism, animations CSS, et support multilingue (FR/EN). Rôle : développeur backend.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">Python</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">Django Rest Framework</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">PostgreSQL</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">JWT</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://github.com/EssesDev/hotel_management" target="_blank" rel="noopener noreferrer"
                                class="flex items-center gap-2 text-sm bg-slate-700 px-4 py-2 rounded-lg hover:bg-slate-600 transition">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -133,56 +147,27 @@
                 </div>
 
                 <div class="project-card bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
-                    <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-30">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
-                        </svg>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-xl font-bold mb-3">Projet à venir</h4>
-                        <p class="text-slate-400 mb-4 text-sm leading-relaxed">
-                            Espace réservé pour le prochain projet.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">Python</span>
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">DjangoRest</span>
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">etc.</span>
-                        </div>
-                        <div class="flex gap-3">
-                            <a href="#" class="flex items-center gap-2 text-sm bg-slate-700 px-4 py-2 rounded-lg hover:bg-slate-600 transition">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                                Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
                     <div class="h-48 bg-gradient-to-br from-green-500 to-teal-500 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-30">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white opacity-30" aria-label="Icône d'IA">
+                            <path d="M12 2a10 10 0 0 0-10 10c0 2.76 1.12 5.26 2.93 7.07M12 2a10 10 0 0 1 10 10c0 2.76-1.12 5.26-2.93 7.07M2 12h20"></path>
                         </svg>
                     </div>
                     <div class="p-6">
-                        <h4 class="text-xl font-bold mb-3">Projet à venir</h4>
+                        <h4 class="text-xl font-bold mb-3">Projet IA à venir</h4>
                         <p class="text-slate-400 mb-4 text-sm leading-relaxed">
-                            Espace réservé pour un troisième projet.
+                            Projet en préparation pour explorer la modélisation en intelligence artificielle, avec un focus sur le machine learning et les réseaux neuronaux.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">Python</span>
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">...</span>
-                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">...</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">TensorFlow</span>
+                            <span class="text-xs bg-slate-700 px-3 py-1 rounded-full text-cyan-400">Scikit-learn</span>
                         </div>
                         <div class="flex gap-3">
                             <a href="#" class="flex items-center gap-2 text-sm bg-slate-700 px-4 py-2 rounded-lg hover:bg-slate-600 transition">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                                 </svg>
-                                Code
+                                Code (bientôt)
                             </a>
                         </div>
                     </div>
@@ -207,7 +192,7 @@
                         </div>
                         <div>
                             <h4 class="text-lg font-semibold">Python</h4>
-                            <p class="text-slate-400 text-sm">Intermédiaire</p>
+                            <p class="text-slate-400 text-sm">Applications desktop (Tkinter), automatisation (PyAutoGUI), tests (PyTest)</p>
                         </div>
                     </div>
                 </div>
@@ -223,8 +208,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h4 class="text-lg font-semibold">Django</h4>
-                            <p class="text-slate-400 text-sm">débutant</p>
+                            <h4 class="text-lg font-semibold">Django & Django Rest Framework</h4>
+                            <p class="text-slate-400 text-sm">API REST, authentification JWT, gestion de données</p>
                         </div>
                     </div>
                 </div>
@@ -239,8 +224,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h4 class="text-lg font-semibold">SQL/PostgreSQL/MySQL</h4>
-                            <p class="text-slate-400 text-sm">Intermédiaire</p>
+                            <h4 class="text-lg font-semibold">SQL (PostgreSQL, MySQL)</h4>
+                            <p class="text-slate-400 text-sm">Conception et gestion de bases de données</p>
                         </div>
                     </div>
                 </div>
@@ -249,14 +234,12 @@
                     <div class="flex items-center gap-4">
                         <div class="p-3 bg-cyan-500/10 rounded-lg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-cyan-400">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <line x1="2" y1="12" x2="22" y2="12"></line>
-                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                <path d="M12 2a10 10 0 0 0-10 10c0 2.76 1.12 5.26 2.93 7.07M12 2a10 10 0 0 1 10 10c0 2.76-1.12 5.26-2.93 7.07M2 12h20"></path>
                             </svg>
                         </div>
                         <div>
-                            <h4 class="text-lg font-semibold">API REST</h4>
-                            <p class="text-slate-400 text-sm">Débutant</p>
+                            <h4 class="text-lg font-semibold">Machine Learning</h4>
+                            <p class="text-slate-400 text-sm">En apprentissage : TensorFlow, Scikit-learn pour modélisation IA</p>
                         </div>
                     </div>
                 </div>
@@ -269,9 +252,9 @@
                     <span class="bg-slate-700 px-4 py-2 rounded-lg text-sm">Git</span>
                     <span class="bg-slate-700 px-4 py-2 rounded-lg text-sm">Linux</span>
                     <span class="bg-slate-700 px-4 py-2 rounded-lg text-sm">Docker</span>
-                    <span class="bg-slate-700 px-4 py-2 rounded-lg text-sm">REST API</span>
                     <span class="bg-slate-700 px-4 py-2 rounded-lg text-sm">HTML/CSS</span>
                     <span class="bg-slate-700 px-4 py-2 rounded-lg text-sm">JavaScript</span>
+                    <span class="bg-slate-700 px-4 py-2 rounded-lg text-sm">PyTest</span>
                 </div>
             </div>
         </div>
@@ -281,7 +264,7 @@
         <div class="max-w-4xl mx-auto text-center">
             <h3 class="text-3xl font-bold mb-8">Travaillons ensemble</h3>
             <p class="text-slate-300 mb-8 text-lg">
-                Je suis disponible pour des projets freelance et des opportunités d'emploi.
+                Disponible pour des projets freelance, des collaborations en IA, ou des opportunités d'emploi à Douala ou à distance.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="mailto:briceessomba12@gmail.com"
@@ -304,7 +287,7 @@
     </section>
 
     <footer class="py-8 px-6 border-t border-slate-700 text-center text-slate-400">
-        <p>&copy; 2025 Brice ESSOMBA. Développé avec HTML, CSS et Tailwind CSS.</p>
+        <p>&copy; 2025 Brice Essomba. Développé avec <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition">Tailwind CSS</a>. <a href="https://github.com/EssesDev" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition">Voir mes projets sur GitHub</a>.</p>
     </footer>
 
 </body>
